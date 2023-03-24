@@ -1,0 +1,22 @@
+.App {
+}
+
+.header {
+  display: flex;
+
+  align-items: flex-end;
+  justify-content: center;
+  border: 1px solid red;
+}
+
+.item {
+  flex-direction: row-reverse;
+  padding: 40px;
+  font-size: 25px;
+  height: fit-content;
+  width: fit-content;
+}
+.item_1 {
+  align-items: flex-start;
+  align-self: flex-start;
+}
